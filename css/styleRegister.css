@@ -1,0 +1,40 @@
+.form{
+    width: 40vw;
+    height: 100vh;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+}
+
+.form-label{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.btn{
+    background-color: #227d99;
+    border: none;
+    font-weight: bold;
+    color: white;
+}
+input::placeholder{
+    font-weight: bold;
+}
+
+body{
+    height: auto;
+    background-image: url('../img/Background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
