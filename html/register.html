@@ -18,7 +18,7 @@
         </div>
                   <div data-mdb-input-init class="form-outline mb-4">
                     <label class="form-label" for="form2Example11">Usuario</label>
-                    <input type="email" id="form2Example11" class="form-control"
+                    <input type="text" id="form2Example11" class="form-control"
                       placeholder="Login"/>
                   </div>
 
@@ -28,8 +28,13 @@
                   </div>
 
                   <div data-mdb-input-init class="form-outline mb-4">
-                    <label class="form-label" for="form2Example22">Confirmar Senha</label>
-                    <input type="password" id="form2Example22" class="form-control" placeholder="Confirmar Senha"/>
+                    <label class="form-label" for="form2Example22">E-mail</label>
+                    <input type="email" id="form2Example22 email" class="form-control" placeholder="E-mail"/>
+                  </div>
+
+                  <div data-mdb-input-init class="form-outline mb-4">
+                    <label class="form-label" for="form2Example22">Telefone</label>
+                    <input type="tel" id="form2Example22 telefone" class="form-control" placeholder="Telefone" maxlength="15" onkeyup="handlePhone(event)"/>
                   </div>
 
                   <div class="text-center pt-1 mb-5 pb-1" style="margin-bottom: 0 !important;">
@@ -37,5 +42,8 @@
                   </div>
       </form>
 </div>
+
+<script src="../js/mascaras.js"></script>
+
 </body>
 </html>
