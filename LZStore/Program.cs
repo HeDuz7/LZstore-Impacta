@@ -1,7 +1,15 @@
+using LZStore.Models.Configuration;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+Configuration.configureContext(builder.Services, builder.Configuration);
+
+Configuration.configureRepository(builder.Services);
+Configuration.configureService(builder.Services);
+Configuration.configureValidation(builder.Services);
 
 var app = builder.Build();
 

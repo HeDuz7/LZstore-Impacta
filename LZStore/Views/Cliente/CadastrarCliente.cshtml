@@ -1,0 +1,58 @@
+﻿@model LZStore.Models.Dtos.ClienteDto
+@using LZStore.Models.Dtos
+@using LZStore.Models.Enums
+@using LZStore.Models.Extensions
+@using static LZStore.Models.Enums.Enum
+
+@{
+    ViewData["Title"] = "CadastrarCliente";
+}
+
+<h1>Cadastrar Cliente</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CadastrarCliente">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NomeCliente" class="control-label">Nome</label>
+                <input asp-for="NomeCliente" class="form-control" />
+                <span asp-validation-for="NomeCliente" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SenhaCliente" class="control-label">Senha</label>
+                <input asp-for="SenhaCliente" class="form-control" />
+                <span asp-validation-for="SenhaCliente" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EmailCliente" class="control-label">E-mail</label>
+                <input asp-for="EmailCliente" class="form-control" />
+                <span asp-validation-for="EmailCliente" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TelCliente" class="control-label">Telefone</label>
+                <input asp-for="TelCliente" class="form-control" />
+                <span asp-validation-for="TelCliente" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cargo" class="control-label">Cargo</label>
+                @Html.DropDownListFor(Enum => Enum.Cargo, Cargo.Cliente.ToSelectList(), new { @class = "form-control" })
+                @* <input asp-for="Cargo" class="form-control" /> *@
+                <span asp-validation-for="Cargo" class="text-danger"></span>
+            </div>
+            <hr />
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Voltar a Lista</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
