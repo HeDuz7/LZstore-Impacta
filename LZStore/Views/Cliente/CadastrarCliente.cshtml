@@ -5,53 +5,67 @@
 @using static LZStore.Models.Enums.Enum
 
 @{
-    ViewData["Title"] = "CadastrarCliente";
+    <link rel="icon" type="image/png" href="../img/bolaPreta.png">
+    ViewData["Title"] = "LZ|Registro";
 }
 
-<h1>Cadastrar Cliente</h1>
+<body style="overflow: hidden;">
+    <div class="form">
 
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="CadastrarCliente">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="NomeCliente" class="control-label">Nome</label>
-                <input asp-for="NomeCliente" class="form-control" />
-                <span asp-validation-for="NomeCliente" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="SenhaCliente" class="control-label">Senha</label>
-                <input asp-for="SenhaCliente" class="form-control" />
-                <span asp-validation-for="SenhaCliente" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="EmailCliente" class="control-label">E-mail</label>
-                <input asp-for="EmailCliente" class="form-control" />
-                <span asp-validation-for="EmailCliente" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="TelCliente" class="control-label">Telefone</label>
-                <input asp-for="TelCliente" class="form-control" />
-                <span asp-validation-for="TelCliente" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Cargo" class="control-label">Cargo</label>
-                @Html.DropDownListFor(Enum => Enum.Cargo, Cargo.Cliente.ToSelectList(), new { @class = "form-control" })
-                @* <input asp-for="Cargo" class="form-control" /> *@
-                <span asp-validation-for="Cargo" class="text-danger"></span>
-            </div>
-            <hr />
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
+        <form asp-action="CadastrarCliente" style="width: 50%;">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="text-center">
+            <img src="../img/bolaPreta.png"
+            style="width: 185px;" alt="logo">
+        </div> 
+
+                <div data-mdb-input-init class="form-outline mb-4">
+                    <label asp-for="NomeCliente" class="form-label">Nome Completo</label>
+                    <input asp-for="NomeCliente" type="text" class="form-control"
+                     placeholder="Nome Completo" />
+                    <span asp-validation-for="NomeCliente" class="text-danger"></span>
+                </div>
+
+                <div data-mdb-input-init class="form-outline mb-4">
+                    <label asp-for="SenhaCliente" class="form-label">Senha</label>
+                    <input asp-for="SenhaCliente" type="password" class="form-control"
+                     placeholder="Senha" />
+                    <span asp-validation-for="SenhaCliente" class="text-danger"></span>
+                </div>
+
+                <div data-mdb-input-init class="form-outline mb-4">
+                    <label asp-for="EmailCliente" class="form-label">E-mail</label>
+                    <input asp-for="EmailCliente" type="email"  class="form-control"
+                           placeholder="E-mail" />
+                    <span asp-validation-for="EmailCliente" class="text-danger"></span>
+                </div>
+
+                <div data-mdb-input-init class="form-outline mb-4">
+                    <label asp-for="TelCliente" class="form-label">Telefone</label>
+                    <input asp-for="TelCliente" type="tel" class="form-control"
+                     placeholder="Telefone"maxlength="15"/>
+                    <span asp-validation-for="TelCliente" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Cargo" class="control-label">Cargo</label>
+                    @Html.DropDownListFor(Enum => Enum.Cargo, Cargo.Cliente.ToSelectList(), new { @class = "form-control" })
+                    @* <input asp-for="Cargo" class="form-control" /> *@
+                    <span asp-validation-for="Cargo" class="text-danger"></span>
+                </div>
+
+                @* <div class="text-center pt-1 mb-5 pb-1" style="margin-bottom: 0 !important;">
+                    <button data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" style="width: 100%;" type="button">Entrar</button>
+                </div> *@
+
+                <div class="text-center pt-1 mb-5 pb-1" style="margin-bottom: 0 !important;">
+                    <input type="submit" value="Cadastrar" class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" />
+                </div>
+            </form>
+        </div>
     </div>
-</div>
+</body>
 
-<div>
-    <a asp-action="Index">Voltar a Lista</a>
-</div>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

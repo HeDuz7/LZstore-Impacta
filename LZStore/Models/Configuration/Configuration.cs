@@ -26,11 +26,13 @@ namespace LZStore.Models.Configuration
         public static void configureRepository(IServiceCollection services)
         {
             services.AddScoped<IClienteRepository, ClienteRepository>();
+            services.AddScoped<IUsuarioRepository, UsuarioRepository>();
         }
 
         public static void configureService(IServiceCollection services)
         {
             services.AddScoped<IClienteService, ClienteService>();
+            services.AddScoped<IUsuarioService, UsuarioService>();
         }
 
         public static void configureValidation(IServiceCollection services)

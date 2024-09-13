@@ -1,0 +1,33 @@
+﻿@using Microsoft.AspNetCore.Http;
+
+<h3>Login de Usuario</h3>
+
+<body style="overflow: hidden;">
+    <div class="form">
+        <form method="post" asp-controller="cliente" asp-action="login"  style="width: 50%;">
+            <div class="text-center">
+                <img src="../img/bolaPreta.png"
+                     style="width: 185px;" alt="logo">
+            </div>
+            <div data-mdb-input-init class="form-outline mb-4">
+                <label class="form-label" for="form2Example11">E-mail</label>
+                <input type="email" name="email" id="form2Example11" class="form-control"
+                       placeholder="E-mail" />
+            </div>
+
+            <div data-mdb-input-init class="form-outline mb-4">
+                <label class="form-label" for="form2Example22">Password</label>
+                <input type="password" name="senha" id="form2Example22" class="form-control" placeholder="Password" />
+            </div>
+
+            <div class="text-center pt-1 mb-5 pb-1" style="margin-bottom: 0 !important;">
+                <button data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" style="width: 100%;" type="submit" value="Login">Entrar</button>
+            </div>
+
+            <div class="d-flex align-items-center justify-content-center pb-4" style="font-size: 20px;">
+                <p class="mb-0 me-2">Não tem uma conta?</p>
+                <a asp-controller="cliente" asp-action="CadastrarCliente" button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-outline-danger" value="CadastrarCliente">Registrar</a>
+            </div>
+        </form>
+    </div>
+</body>

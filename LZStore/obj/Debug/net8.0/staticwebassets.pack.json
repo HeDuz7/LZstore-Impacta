@@ -13,6 +13,30 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\wwwroot\\img\\Background.png",
+      "PackagePath": "staticwebassets\\img\\Background.png"
+    },
+    {
+      "Id": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\wwwroot\\img\\backgroundPagamento.png",
+      "PackagePath": "staticwebassets\\img\\backgroundPagamento.png"
+    },
+    {
+      "Id": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\wwwroot\\img\\bannerSite.png",
+      "PackagePath": "staticwebassets\\img\\bannerSite.png"
+    },
+    {
+      "Id": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\wwwroot\\img\\bolaAzul.png",
+      "PackagePath": "staticwebassets\\img\\bolaAzul.png"
+    },
+    {
+      "Id": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\wwwroot\\img\\bolaPreta.png",
+      "PackagePath": "staticwebassets\\img\\bolaPreta.png"
+    },
+    {
+      "Id": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\wwwroot\\img\\lzsports.png",
+      "PackagePath": "staticwebassets\\img\\lzsports.png"
+    },
+    {
       "Id": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

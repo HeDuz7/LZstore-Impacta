@@ -18,5 +18,10 @@ namespace LZStore.Models.Repositories
             _context.Add(cliente);
             _context.SaveChanges();
         }
+
+        public ClienteDto PesquisaLogin(string login)
+        {
+            return _context.Clientes.FirstOrDefault(x => x.EmailCliente.Equals(login));
+        }
     }
 }

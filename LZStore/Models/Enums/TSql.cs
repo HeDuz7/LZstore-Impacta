@@ -2,6 +2,8 @@
 {
     public enum TSql
     {
-        CADASTRAR_CLIENTE
+        CADASTRAR_CLIENTE,
+
+        EFETUAR_LOGIN
     }
 }

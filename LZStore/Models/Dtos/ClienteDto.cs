@@ -13,7 +13,7 @@ namespace LZStore.Models.Dtos
         [Column("nome")]
         public string NomeCliente { get; set; }
 
-        [Required(ErrorMessage = " SENHS DO CLIENTE OBRIGATORIO")]
+        [Required(ErrorMessage = " SENHA DO CLIENTE OBRIGATORIO")]
         [MaxLength(255)]
         [Column("senha")]
         public string SenhaCliente { get; set; }
