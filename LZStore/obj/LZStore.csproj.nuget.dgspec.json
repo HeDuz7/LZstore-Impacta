@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\LZStore.csproj": {}
+    "C:\\Users\\Guilherme\\Desktop\\Luiz\\PROJETOS\\LZstore-Impacta\\LZStore\\LZStore.csproj": {}
   },
   "projects": {
-    "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\LZStore.csproj": {
+    "C:\\Users\\Guilherme\\Desktop\\Luiz\\PROJETOS\\LZstore-Impacta\\LZStore\\LZStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\LZStore.csproj",
+        "projectUniqueName": "C:\\Users\\Guilherme\\Desktop\\Luiz\\PROJETOS\\LZstore-Impacta\\LZStore\\LZStore.csproj",
         "projectName": "LZStore",
-        "projectPath": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\LZStore.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\obj\\",
+        "projectPath": "C:\\Users\\Guilherme\\Desktop\\Luiz\\PROJETOS\\LZstore-Impacta\\LZStore\\LZStore.csproj",
+        "packagesPath": "C:\\Users\\Guilherme\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Guilherme\\Desktop\\Luiz\\PROJETOS\\LZstore-Impacta\\LZStore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Guilherme\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -86,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
