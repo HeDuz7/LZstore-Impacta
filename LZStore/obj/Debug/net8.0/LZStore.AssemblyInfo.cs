@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LZStore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd85765bc139db2154baf9a729a1e52f8e2dd3b5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0d854c4663c3cd8e144fdeab2811737058cc494")]
 [assembly: System.Reflection.AssemblyProductAttribute("LZStore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LZStore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

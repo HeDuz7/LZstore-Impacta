@@ -10,94 +10,80 @@
     <link rel="stylesheet" href="../css/styleCadastro.css">
 </head>
 <body style="overflow: hidden;">
-<div class="form">
-    <form>
-    <div class="row">
-        <div class="brutalist-container">
-            <div>
-                <input placeholder="TYPE HERE" class="brutalist-input smooth-type" type="text"/>
-                <label class="brutalist-label">Nome</label>            
-            </div>
-        </div>
-        <div class="brutalist-container">
-            <div >
-                <input placeholder="TYPE HERE" class="brutalist-input smooth-type" type="text"/>
-                <label class="brutalist-label">Descrição</label>            
-            </div>            
-        </div>
-        <div class="brutalist-container">
-            <div >
-                <input placeholder="TYPE HERE" class="brutalist-input smooth-type" type="text"/>
-                <label class="brutalist-label">Estoque</label>            
-            </div>            
-        </div>
-    </div>
+  <div class="testbox">
+    <form action="/">
+      <p id="h1" class="textos"><b>Cadastro de Produto</b></p>
 
-    <div class="row">
-        <div class="container" style="margin-right: 20px;margin-left: 20px;">
-            <div class="folder">
-              <div class="top"></div>
-              <div class="bottom"></div>
-            </div>
-            <label class="custom-file-upload">
-              <input class="title" type="file" />
-              Produto
-            </label>
-          </div>
+      <p id="h4" class="textos"><b>Nome</b></p>
+      <input placeholder="Nome do Produto" type="text" class="input form-control">
+      <p id="h4" class="textos"><b>Estoque</b></p>
+      <input placeholder="Quantidade no estoque" type="number" class="input form-control">
+      <p id="h4" class="textos"><b>Produto</b></p>
+      <input placeholder="Descrição do Produto" type="file" class="input form-control">
 
-        <div class="form2" style="margin-right: 20px;margin-left: 20px;">
-            <form class="form2">
-                <label style="place-self: center;"><b>Modelo</b></label>
-            </br>
-                <label for="01">Torcedor</label>
-                <input id="01" type="radio" name="r" value="1" checked="">
-                <label for="02">Retro</label>
-                <input id="02" type="radio" name="r" value="2">
-                <label for="03">Kit</label>
-                <input id="03" type="radio" name="r" value="3">
-                <label for="04">Kit Infantil</label>
-                <input id="04" type="radio" name="r" value="4">
-            </form>
-        </div>  
+      <table>
+        <tbody><tr>
+          <th class="first-col"></th>
+          <th class="textos">Torcedor</th>
+          <th class="textos">Retro</th>
+          <th class="textos">Jogador</th>
+          <th class="textos">Kit</th>
+        </tr>
+        <tr>
+          <td class="first-col textos"><b>Modelo</b></td>
+          <td><input id="torcedor" name="model" value="Torcedor" type="radio" class="form-check-input" onclick="toggleRadio(this)"></td>
+          <td><input id="retro" name="model" value="Retro" type="radio" class="form-check-input" onclick="toggleRadio(this)"></td>
+          <td><input id="jogador" name="model" value="Jogador" type="radio" class="form-check-input" onclick="toggleRadio(this)"></td>
+          <td><input id="kit" name="model" value="Kit" type="radio" class="form-check-input" onclick="toggleRadio(this)"></td>
+        </tr>
+        
+        <script>
+          let lastChecked = null;
+        
+          function toggleRadio(radio) {
+            if (lastChecked === radio) {
+              radio.checked = false;
+              lastChecked = null;
+            } else {
+              lastChecked = radio;
+            }
+          }
+        </script>
+        
+      </tbody>
+    </table>
+    <table>
+      <tbody>
+        <tr>
+        <th class="first-col"></th>
+        <th class="textos">P</th>
+        <th class="textos">M</th>
+        <th class="textos">G</th>
+        <th class="textos">GG</th>
+        <th class="textos">XG</th>
+        <th class="textos">2XG</th>
+      </tr>
+      <tr>
+        <td class="first-col textos"><b>Tamanho</b></td>
+        <td><input name="P" value="none" type="checkbox" class="form-check-input"></td>
+        <td><input name="M" value="none" type="checkbox" class="form-check-input"></td>
+        <td><input name="G" value="none" type="checkbox" class="form-check-input"></td>
+        <td><input name="GG" value="none" type="checkbox" class="form-check-input"></td>
+        <td><input name="XG" value="none" type="checkbox" class="form-check-input"></td>
+        <td><input name="2XG" value="none" type="checkbox" class="form-check-input"></td>
+      </tr>
+    </tbody>
+  </table>
 
-        <div class="form3" style="margin-right: 20px;margin-left: 20px;">
-          <form class="form30" >
-              <label style="place-self: center;"><b>Tamanhos</b></label>
-          </br>
-              <label for="01">P</label>
-              <input id="01" type="checkbox" name="r" value="1" checked="">
-              <label for="02">M</label>
-              <input id="02" type="checkbox" name="r" value="2">
-              <label for="03">G</label>
-              <input id="03" type="checkbox" name="r" value="3">
-              <label for="04">GG</label>
-              <input id="04" type="checkbox" name="r" value="4">
-          </form>
-      </div>  
-    </div>
-    </form>
+      <p id="h4" class="textos"><b>Descrição</b></p>
+      <textarea class="form-control" rows="5"></textarea>
 
-    <div class="row" style="place-self: center;">
-    <button>
-      <div class="svg-wrapper-1">
-        <div class="svg-wrapper">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            width="24"
-            height="24"
-          >
-            <path fill="none" d="M0 0h24v24H0z"></path>
-            <path
-              fill="currentColor"
-              d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
-            ></path>
-          </svg>
-        </div>
+      <div class="btn-block ">
+        <button class="btn btn-primary" type="submit">Cadastrar Produto</button>
       </div>
-      <span>Cadastrar</span>
-    </button>
-    </div>
-</div>
+      
+    </form>
+  </div>
+
 </body>
 </html>
