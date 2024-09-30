@@ -21,7 +21,7 @@ nav {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 0px;
+    padding: 0 20px;
 }
 
 .logo {
@@ -144,6 +144,9 @@ background-color: #227d99;
     background-color: white;
     border: none;
 }
+
+/* From Uiverse.io by devkatyall */ 
+/* The design is inspired from Galahhad*/
 
 .popup {
     --burger-line-width: 1.125em;
@@ -341,8 +344,8 @@ background-color: #227d99;
     visibility: visible;
     opacity: 1;
   }
-
-  /*Filtro*/
+  
+    /*Filtro*/
 
 .search {
   --input-line: #cccccc;
@@ -458,4 +461,64 @@ background-color: #227d99;
   position: absolute;
   top: 7px;
   right: 15px;
+}
+
+
+.plusButton {
+  --plus_sideLength: 2.0rem;
+  --plus_topRightTriangleSideLength: 0.5rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  width: var(--plus_sideLength);
+  height: var(--plus_sideLength);
+  background-color: #227d99;
+  overflow: hidden;
+}
+
+.plusButton::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-width: 0 var(--plus_topRightTriangleSideLength) var(--plus_topRightTriangleSideLength) 0;
+  border-style: solid;
+  border-color: transparent white transparent transparent;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2s;
+}
+
+.plusButton:hover {
+  cursor: pointer;
+}
+
+.plusButton:hover::before {
+  --plus_topRightTriangleSideLength: calc(var(--plus_sideLength) * 2);
+}
+
+.plusButton:focus-visible::before {
+  --plus_topRightTriangleSideLength: calc(var(--plus_sideLength) * 2);
+}
+
+.plusButton>.plusIcon {
+  fill: white;
+  width: calc(var(--plus_sideLength) * 0.7);
+  height: calc(var(--plus_sideLength) * 0.7);
+  z-index: 1;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2s;
+}
+
+.plusButton:hover>.plusIcon {
+  fill: black;
+  transform: rotate(180deg);
+}
+
+.plusButton:focus-visible>.plusIcon {
+  fill: black;
+  transform: rotate(180deg);
 }

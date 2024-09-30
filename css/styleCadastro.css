@@ -1,0 +1,135 @@
+body{
+  height: auto;
+  background-image: url('../img/Background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+form, p {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  line-height: 13px;
+  border-radius: 10px;
+}
+
+#h1 {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+#h4 {
+  margin: 20px 0 2px;
+  color: #000;
+}
+
+.testbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  padding: 80px;
+  padding-top: 40px;
+}
+
+form {
+  width: 100%;
+  padding: 20px;
+  background: rgb(0 0 0 / 35%);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 2px 5px #000000;
+  
+}
+
+.textos{
+  color: #fff !important;
+}
+
+.input {
+  width: calc(100% - 10px);
+  padding: 5px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  vertical-align: middle;
+  background-color: #F7F7F7;
+}
+
+.input:hover, textarea:hover {
+  outline: none;
+  border: 1px solid #000;
+}
+
+.first-name {
+  margin-bottom: 5px;
+}
+
+th, td {
+  width: 10%;
+  padding: 15px 0;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  vertical-align: set;
+  line-height: 18px;
+  font-weight: 400;
+  word-break: break-all;
+}
+
+.first-col {
+  width: 16%;
+  text-align: left;
+}
+
+table {
+  width: 100%;
+}
+
+textarea {
+  width: calc(100% - 6px);
+  background: #F7F7F7;
+  border-radius: 5px;
+}
+
+.btn-block {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.btn{
+  background-color:#227d99;
+  border: none;
+}
+
+.btn:hover {
+  color: var(--bs-btn-hover-color);
+  background-color: #000000;
+  border: none;
+}
+
+button {
+  width: 160px;
+  padding: 10px;
+  border: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #227d99;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: .9;
+}
+
+@media (min-width: 568px) {
+  th, td {
+    word-break: keep-all;
+  }
+}

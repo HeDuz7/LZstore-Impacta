@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../img/bolaPreta.png">
+    <title>LZ|CadProd</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-jLX0tP5N7c8+jRRMjO9kmO2DRs7+GCRwhpSeMUMCR1t5JLPtGtsHbSLUwxjA0sY9" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/styleCadastro.css">
+</head>
+<body style="overflow: hidden;">
+  <div class="testbox">
+    <form action="/">
+      <p id="h1" class="textos"><b>Cadastro de Produto</b></p>
+
+      <p id="h4" class="textos"><b>Nome</b></p>
+      <input placeholder="Nome do Produto" type="text" class="input form-control">
+      <p id="h4" class="textos"><b>Estoque</b></p>
+      <input placeholder="Quantidade no estoque" type="number" class="input form-control">
+      <p id="h4" class="textos"><b>Produto</b></p>
+      <input placeholder="Descrição do Produto" type="file" class="input form-control">
+
+      <table>
+        <tbody><tr>
+          <th class="first-col"></th>
+          <th class="textos">Torcedor</th>
+          <th class="textos">Retro</th>
+          <th class="textos">Jogador</th>
+          <th class="textos">Kit</th>
+        </tr>
+        <tr>
+          <td class="first-col textos"><b>Modelo</b></td>
+          <td><input id="torcedor" name="model" value="Torcedor" type="radio" class="form-check-input" onclick="toggleRadio(this)"></td>
+          <td><input id="retro" name="model" value="Retro" type="radio" class="form-check-input" onclick="toggleRadio(this)"></td>
+          <td><input id="jogador" name="model" value="Jogador" type="radio" class="form-check-input" onclick="toggleRadio(this)"></td>
+          <td><input id="kit" name="model" value="Kit" type="radio" class="form-check-input" onclick="toggleRadio(this)"></td>
+        </tr>
+        
+        <script>
+          let lastChecked = null;
+        
+          function toggleRadio(radio) {
+            if (lastChecked === radio) {
+              radio.checked = false;
+              lastChecked = null;
+            } else {
+              lastChecked = radio;
+            }
+          }
+        </script>
+        
+      </tbody>
+    </table>
+    <table>
+      <tbody>
+        <tr>
+        <th class="first-col"></th>
+        <th class="textos">P</th>
+        <th class="textos">M</th>
+        <th class="textos">G</th>
+        <th class="textos">GG</th>
+        <th class="textos">XG</th>
+        <th class="textos">2XG</th>
+      </tr>
+      <tr>
+        <td class="first-col textos"><b>Tamanho</b></td>
+        <td><input name="P" value="none" type="checkbox" class="form-check-input"></td>
+        <td><input name="M" value="none" type="checkbox" class="form-check-input"></td>
+        <td><input name="G" value="none" type="checkbox" class="form-check-input"></td>
+        <td><input name="GG" value="none" type="checkbox" class="form-check-input"></td>
+        <td><input name="XG" value="none" type="checkbox" class="form-check-input"></td>
+        <td><input name="2XG" value="none" type="checkbox" class="form-check-input"></td>
+      </tr>
+    </tbody>
+  </table>
+
+      <p id="h4" class="textos"><b>Descrição</b></p>
+      <textarea class="form-control" rows="5"></textarea>
+
+      <div class="btn-block ">
+        <button class="btn btn-primary" type="submit">Cadastrar Produto</button>
+      </div>
+      
+    </form>
+  </div>
+
+</body>
+</html>
