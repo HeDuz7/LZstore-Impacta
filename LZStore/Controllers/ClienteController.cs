@@ -1,14 +1,17 @@
 ﻿using LZStore.Models.Dtos;
 using LZStore.Models.Interface.Repositories;
 using LZStore.Models.Interface.Services;
+using LZStore.Models.Responses;
 using LZStore.Models.Services;
 using Microsoft.AspNetCore.Mvc;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace LZStore.Controllers
 {
     public class ClienteController : Controller
     {
-        
+
+        private Response response; 
         private readonly IClienteService _clienteService;
 
         public ClienteController(IClienteService clienteService)
@@ -32,10 +35,19 @@ namespace LZStore.Controllers
         {
             try
             {
-                _clienteService.Cadastrar(Cliente);
-                //TempData["SuccessMessage"] = "CLIENTE " + Cliente.NomeCliente + " CADASTRADO COM SUCESSO";
+                response = _clienteService.Cadastrar(Cliente);
+
+                //if (!response.Success)
+                //{
+                //    return BadRequest(response);
+                //}
+
+                TempData["SuccessMessage"] = response.Notifications.FirstOrDefault();
+                
                 return RedirectToAction("CadastrarCliente");
+                //return View;
             }
+
             catch (Exception ex)
             {
                 throw new Exception(ex.Message);

@@ -4,69 +4,111 @@
 @using LZStore.Models.Extensions
 @using static LZStore.Models.Enums.Enum
 
+
+
 @{
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- jquery -->
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <!-- bootstrap -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <!-- chamada da função -->
+    <script type="text/javascript">
+        $(window).load(function () {
+            $('#myModal').modal('show');
+        });
+    </script>
+
     <link rel="icon" type="image/png" href="../img/bolaPreta.png">
     ViewData["Title"] = "LZ|Registro";
+
 }
 
+
+
 <body style="overflow: hidden;">
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <!-- Modal -->
+         <div class="modal fade" id="myModal" role="dialog" !important> 
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Alerta !</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>@TempData["SuccessMessage"]</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+
+            </div>
+         </div> 
+    }
+
     <div class="form">
 
         <form asp-action="CadastrarCliente" style="width: 50%;">
-        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-        <div class="text-center">
-            <img src="../img/bolaPreta.png"
-            style="width: 185px;" alt="logo">
-        </div> 
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="text-center">
+                        <img src="../img/bolaPreta.png"
+                        style="width: 185px;" alt="logo">
+                    </div> 
 
-                <div data-mdb-input-init class="form-outline mb-4">
-                    <label asp-for="NomeCliente" class="form-label">Nome Completo</label>
-                    <input asp-for="NomeCliente" type="text" class="form-control"
-                     placeholder="Nome Completo" />
-                    <span asp-validation-for="NomeCliente" class="text-danger"></span>
-                </div>
+                        <div data-mdb-input-init class="form-outline mb-4">
+                            <label asp-for="NomeCliente" class="form-label">Nome Completo</label>
+                            <input asp-for="NomeCliente" type="text" class="form-control"
+                             placeholder="Nome Completo" />
+                            <span asp-validation-for="NomeCliente" class="text-danger"></span>
+                        </div>
 
-                <div data-mdb-input-init class="form-outline mb-4">
-                    <label asp-for="SenhaCliente" class="form-label">Senha</label>
-                    <input asp-for="SenhaCliente" type="password" class="form-control"
-                     placeholder="Senha" />
-                    <span asp-validation-for="SenhaCliente" class="text-danger"></span>
-                </div>
+                        <div data-mdb-input-init class="form-outline mb-4">
+                            <label asp-for="SenhaCliente" class="form-label">Senha</label>
+                            <input asp-for="SenhaCliente" type="password" class="form-control"
+                             placeholder="Senha" />
+                            <span asp-validation-for="SenhaCliente" class="text-danger"></span>
+                        </div>
 
-                <div data-mdb-input-init class="form-outline mb-4">
-                    <label asp-for="EmailCliente" class="form-label">E-mail</label>
-                    <input asp-for="EmailCliente" type="email"  class="form-control"
-                           placeholder="E-mail" />
-                    <span asp-validation-for="EmailCliente" class="text-danger"></span>
-                </div>
+                        <div data-mdb-input-init class="form-outline mb-4">
+                            <label asp-for="EmailCliente" class="form-label">E-mail</label>
+                            <input asp-for="EmailCliente" type="email"  class="form-control"
+                                   placeholder="E-mail" />
+                            <span asp-validation-for="EmailCliente" class="text-danger"></span>
+                        </div>
 
-                <div data-mdb-input-init class="form-outline mb-4">
-                    <label asp-for="TelCliente" class="form-label">Telefone</label>
-                    <input asp-for="TelCliente" type="tel" class="form-control"
-                     placeholder="Telefone"maxlength="15"/>
-                    <span asp-validation-for="TelCliente" class="text-danger"></span>
-                </div>
+                        <div data-mdb-input-init class="form-outline mb-4">
+                            <label asp-for="TelCliente" class="form-label">Telefone</label>
+                            <input asp-for="TelCliente" type="tel" class="form-control"
+                             placeholder="Telefone"maxlength="15"/>
+                            <span asp-validation-for="TelCliente" class="text-danger"></span>
+                        </div>
 
-                <div class="form-group">
-                    <label asp-for="Cargo" class="control-label">Cargo</label>
-                    @Html.DropDownListFor(Enum => Enum.Cargo, Cargo.Cliente.ToSelectList(), new { @class = "form-control" })
-                    @* <input asp-for="Cargo" class="form-control" /> *@
-                    <span asp-validation-for="Cargo" class="text-danger"></span>
-                </div>
-
-                @* <div class="text-center pt-1 mb-5 pb-1" style="margin-bottom: 0 !important;">
-                    <button data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" style="width: 100%;" type="button">Entrar</button>
-                </div> *@
-
-                <div class="text-center pt-1 mb-5 pb-1" style="margin-bottom: 0 !important;">
-                    <input type="submit" value="Cadastrar" class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" />
-                </div>
-            </form>
-        </div>
+                         <div class="form-group">
+                            <label asp-for="Cargo" class="control-label">Cargo</label>
+                            @Html.DropDownListFor(Enum => Enum.Cargo, Cargo.Cliente.ToSelectList(), new { @class = "form-control" })
+                            <span asp-validation-for="Cargo" class="text-danger"></span>
+                        </div>
+ 
+                        <div class="text-center pt-1 mb-5 pb-1" style="margin-bottom: 0 ;">
+                            <input type="submit" value="Cadastrar" class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" />
+                        </div>
+        </form>
     </div>
 </body>
 
 
+
+
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
 }

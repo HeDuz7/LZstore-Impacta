@@ -1,35 +1,50 @@
 ﻿using LZStore.Models.Dtos;
 using LZStore.Models.Interface.Repositories;
 using LZStore.Models.Interface.Services;
-using LZStore.Models.Repositories;
+using LZStore.Models.Responses;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
+
 
 namespace LZStore.Models.Services
 {
     public class ClienteService : IClienteService
     {
-
+        private Response response;
         private readonly IClienteRepository _clienteRepository;
 
         public ClienteService(IClienteRepository clienteRepository)
         {
             _clienteRepository = clienteRepository;
+
+            response = new Response();
         }
 
-        public void Cadastrar(ClienteDto cliente)
+        public Response Cadastrar(ClienteDto cliente)
         {
             try
             {
+
                 var ret = _clienteRepository.PesquisaLogin(cliente.EmailCliente);
                 if (ret != null) 
-                { 
-
+                {
+                    response.AddError("ESSE USUÁRIO JÁ EXISTE");
+                    return response;
                 }
+
                 _clienteRepository.Cadastrar(cliente);
+
+                response.AddInfo("USUÁRIO CADASTRADO");
+
+                return response;
+
+                
 
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Message);
+                
+                response.AddError(ex.Message);
+                return response;
             }
         }
 

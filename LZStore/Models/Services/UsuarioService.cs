@@ -1,6 +1,7 @@
 ﻿using LZStore.Models.Dtos;
 using LZStore.Models.Interface.Repositories;
 using LZStore.Models.Interface.Services;
+using LZStore.Models.Responses;
 
 namespace LZStore.Models.Services
 {
@@ -13,7 +14,7 @@ namespace LZStore.Models.Services
             _usuarioRepository = usuarioRepository;
         }
 
-        public void Cadastrar(UsuarioDto entidade)
+        public Response Cadastrar(UsuarioDto entidade)
         {
             throw new NotImplementedException();
         }
