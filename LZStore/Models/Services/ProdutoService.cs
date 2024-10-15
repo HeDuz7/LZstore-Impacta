@@ -1,8 +1,12 @@
 ﻿
 using LZStore.Models.Dtos;
+using LZStore.Models.Entidades;
 using LZStore.Models.Interface.Repositories;
 using LZStore.Models.Interface.Services;
 using LZStore.Models.Responses;
+using Microsoft.AspNetCore.Http;
+using System.Collections;
+using System.IO;
 
 namespace LZStore.Models.Services
 {
@@ -18,11 +22,45 @@ namespace LZStore.Models.Services
             response = new Response();
         }
 
-        public Response Cadastrar(ProdutoDto produto)
+        private byte[] ConvertGetBytes(IFormFile formFile)
         {
+            using var memoryStream = new MemoryStream();
+            formFile.CopyTo(memoryStream);
+            return memoryStream.ToArray();
+        }
 
+
+        
+        private IFormFile ToIFormFile(byte[] fileBytes, string fileName)
+        {
+            var memoryStream = new MemoryStream(fileBytes);
+            var formFile = new FormFile(memoryStream, 0, fileBytes.Length, null,  fileName);
+            formFile.Headers = new HeaderDictionary();
+            formFile.ContentType = "application/octet-stream";
+            formFile.ContentDisposition = $"filename=\"{fileName}\"";
+
+            return formFile;
+        }
+        
+
+        public Response Cadastrar(ProdutoDto produtodto)
+        {
             try
             {
+                Produto produto = new Produto();
+                produto.Id           = produtodto.Id;
+                produto.TamanhoProd  = produtodto.TamanhoProd;
+                produto.NomeProduto  = produtodto.NomeProduto;
+                produto.PrecoProduto = produtodto.PrecoProduto;
+                produto.DescProduto  = produtodto.DescProduto;
+                produto.EstoqueProd  = produtodto.EstoqueProd;
+                produto.ModeloProd   = produtodto.ModeloProd;
+
+                var ImageBytes = ConvertGetBytes(produtodto.IMGProduto);
+
+                produto.IMGProduto = ImageBytes;
+
+
                 _produtoRepository.Cadastrar(produto);
 
                 response.AddInfo("PRODUTO CADASTRADO");
@@ -42,7 +80,28 @@ namespace LZStore.Models.Services
         {
             try
             {
-                return _produtoRepository.Listar();
+                var list = _produtoRepository.Listar();
+                IList<ProdutoDto> retorno = new List<ProdutoDto>();
+                
+                foreach(var item in list)
+                {
+
+                    retorno.Add(new ProdutoDto()
+                    {
+                        Id = item.Id,
+                        TamanhoProd = item.TamanhoProd,
+                        NomeProduto = item.NomeProduto,
+                        PrecoProduto = item.PrecoProduto,
+                        DescProduto = item.DescProduto,
+                        EstoqueProd = item.EstoqueProd,
+                        ModeloProd = item.ModeloProd,
+                        IMGProdutoB = item.IMGProduto
+                    });
+
+                    
+                }
+
+                return retorno.ToList<ProdutoDto>();
             }
             catch (Exception ex)
             {

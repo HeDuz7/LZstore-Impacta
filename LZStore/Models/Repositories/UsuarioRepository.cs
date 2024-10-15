@@ -20,6 +20,11 @@ namespace LZStore.Models.Repositories
             throw new NotImplementedException();
         }
 
+        public List<UsuarioDto> Listar()
+        {
+            throw new NotImplementedException();
+        }
+
         //public UsuarioDto Consultar(UsuarioDto usuario)
         //{
         //    return _contextData.EfetuarLogin(usuario);

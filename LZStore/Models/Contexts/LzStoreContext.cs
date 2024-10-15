@@ -1,4 +1,5 @@
 ﻿using LZStore.Models.Dtos;
+using LZStore.Models.Entidades;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Reflection.Emit;
@@ -9,7 +10,8 @@ namespace LZStore.Models.Contexts
     {
         public DbSet<ClienteDto> Clientes { get; set; }
 
-        public DbSet<ProdutoDto> Produto { get; set; }
+        //public DbSet<ProdutoDto> Produto { get; set; }
+        public DbSet<Produto> Produto { get; set; }
 
         //public DbSet<UsuarioDto> Usuarios { get; set; }
 

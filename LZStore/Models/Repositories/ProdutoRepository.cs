@@ -1,5 +1,6 @@
 ﻿using LZStore.Models.Contexts;
 using LZStore.Models.Dtos;
+using LZStore.Models.Entidades;
 using LZStore.Models.Interface.Repositories;
 
 namespace LZStore.Models.Repositories
@@ -14,13 +15,13 @@ namespace LZStore.Models.Repositories
             _context = context;
         }
 
-        public void Cadastrar(ProdutoDto produto)
+        public void Cadastrar(Produto produto)
         {
             _context.Add(produto);
             _context.SaveChanges();
         }
 
-        public List<ProdutoDto> Listar()
+        public List<Produto> Listar()
         {
             return _context.Produto.ToList();
         }

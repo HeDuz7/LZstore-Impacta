@@ -19,6 +19,11 @@ namespace LZStore.Models.Repositories
             _context.SaveChanges();
         }
 
+        public List<ClienteDto> Listar()
+        {
+            throw new NotImplementedException();
+        }
+
         public ClienteDto PesquisaLogin(string login)
         {
             return _context.Clientes.FirstOrDefault(x => x.EmailCliente.Equals(login));

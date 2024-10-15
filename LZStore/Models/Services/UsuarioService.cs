@@ -45,5 +45,10 @@ namespace LZStore.Models.Services
                 throw;
             }
         }
+
+        public List<UsuarioDto> Listar()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

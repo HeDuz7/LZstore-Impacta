@@ -4,7 +4,6 @@ using LZStore.Models.Interface.Services;
 using LZStore.Models.Responses;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 
-
 namespace LZStore.Models.Services
 {
     public class ClienteService : IClienteService
@@ -73,6 +72,11 @@ namespace LZStore.Models.Services
 
                 throw;
             }
+        }
+
+        public List<ClienteDto> Listar()
+        {
+            throw new NotImplementedException();
         }
     }
 

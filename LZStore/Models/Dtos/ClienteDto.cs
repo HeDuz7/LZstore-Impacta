@@ -27,7 +27,7 @@ namespace LZStore.Models.Dtos
         [Column("telefone")]
         public Int64 TelCliente { get; set; }
 
-        [Required(ErrorMessage = " ESTADO CIVIL OBRIGATORIO")]
+        [Required(ErrorMessage = " CARGO OBRIGATORIO")]
         [Column("cargo")]
         public Cargo Cargo { get; set; }
 
