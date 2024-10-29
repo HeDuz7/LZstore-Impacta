@@ -6,5 +6,6 @@ namespace LZStore.Models.Interface.Repositories
     {
         void Cadastrar(T entidade);
         List<T> Listar();
+
     }
 }

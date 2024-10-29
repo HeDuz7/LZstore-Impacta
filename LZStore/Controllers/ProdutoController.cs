@@ -58,5 +58,29 @@ namespace LZStore.Controllers
                 throw new Exception(ex.Message);
             }
         }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult DetalhesProduto(string? id)
+        {
+            try
+            {
+
+                if (string.IsNullOrEmpty(id))
+                {
+                    return NotFound();
+                }
+
+                TempData["SuccessMessage"] = response.Notifications.FirstOrDefault();
+
+                return RedirectToAction("ListarProdutos");
+            }
+
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+
+        }
     }
 }

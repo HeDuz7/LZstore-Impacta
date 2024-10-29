@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|d:\\documentos\\gustavo\\faculdadeimpacta\\trabalhofaculdade\\lzstore-impacta\\lzstore\\models\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|solutionrelative:lzstore\\models\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|d:\\documentos\\gustavo\\faculdadeimpacta\\trabalhofaculdade\\lzstore-impacta\\lzstore\\views\\produto\\detalhesproduto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|solutionrelative:lzstore\\views\\produto\\detalhesproduto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|d:\\documentos\\gustavo\\faculdadeimpacta\\trabalhofaculdade\\lzstore-impacta\\lzstore\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|solutionrelative:lzstore\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|d:\\documentos\\gustavo\\faculdadeimpacta\\trabalhofaculdade\\lzstore-impacta\\lzstore\\views\\produto\\listarprodutos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|solutionrelative:lzstore\\views\\produto\\listarprodutos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|d:\\documentos\\gustavo\\faculdadeimpacta\\trabalhofaculdade\\lzstore-impacta\\lzstore\\models\\interface\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|solutionrelative:lzstore\\models\\interface\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|d:\\documentos\\gustavo\\faculdadeimpacta\\trabalhofaculdade\\lzstore-impacta\\lzstore\\models\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|solutionrelative:lzstore\\models\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|d:\\documentos\\gustavo\\faculdadeimpacta\\trabalhofaculdade\\lzstore-impacta\\lzstore\\models\\entidades\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|solutionrelative:lzstore\\models\\entidades\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|d:\\documentos\\gustavo\\faculdadeimpacta\\trabalhofaculdade\\lzstore-impacta\\lzstore\\views\\produto\\cadastrarproduto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|solutionrelative:lzstore\\views\\produto\\cadastrarproduto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|d:\\documentos\\gustavo\\faculdadeimpacta\\trabalhofaculdade\\lzstore-impacta\\lzstore\\models\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +42,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "DetalhesProduto.cshtml",
+              "DocumentMoniker": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Views\\Produto\\DetalhesProduto.cshtml",
+              "RelativeDocumentMoniker": "LZStore\\Views\\Produto\\DetalhesProduto.cshtml",
+              "ToolTip": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Views\\Produto\\DetalhesProduto.cshtml",
+              "RelativeToolTip": "LZStore\\Views\\Produto\\DetalhesProduto.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T15:55:02.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Models\\Interface\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "LZStore\\Models\\Interface\\Repositories\\IRepository.cs",
+              "ToolTip": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Models\\Interface\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "LZStore\\Models\\Interface\\Repositories\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T15:09:12.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Produto.cs",
               "DocumentMoniker": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Models\\Entidades\\Produto.cs",
               "RelativeDocumentMoniker": "LZStore\\Models\\Entidades\\Produto.cs",
@@ -50,47 +75,19 @@
               "RelativeToolTip": "LZStore\\Models\\Entidades\\Produto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T18:56:09.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-11T18:56:09.902Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CadastrarProduto.cshtml",
-              "DocumentMoniker": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Views\\Produto\\CadastrarProduto.cshtml",
-              "RelativeDocumentMoniker": "LZStore\\Views\\Produto\\CadastrarProduto.cshtml",
-              "ToolTip": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Views\\Produto\\CadastrarProduto.cshtml",
-              "RelativeToolTip": "LZStore\\Views\\Produto\\CadastrarProduto.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAADcAAABLAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-11T17:36:35.017Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ListarProdutos.cshtml",
-              "DocumentMoniker": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Views\\Produto\\ListarProdutos.cshtml",
-              "RelativeDocumentMoniker": "LZStore\\Views\\Produto\\ListarProdutos.cshtml",
-              "ToolTip": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Views\\Produto\\ListarProdutos.cshtml",
-              "RelativeToolTip": "LZStore\\Views\\Produto\\ListarProdutos.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACgAAABUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-09T15:38:20.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ProdutoService.cs",
               "DocumentMoniker": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Models\\Services\\ProdutoService.cs",
               "RelativeDocumentMoniker": "LZStore\\Models\\Services\\ProdutoService.cs",
               "ToolTip": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Models\\Services\\ProdutoService.cs",
               "RelativeToolTip": "LZStore\\Models\\Services\\ProdutoService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAewB8AAAAAAAAA",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAewB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T21:16:24.771Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-07T21:16:24.771Z"
             },
             {
               "$type": "Document",
@@ -102,8 +99,7 @@
               "RelativeToolTip": "LZStore\\Models\\Repositories\\ProdutoRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T16:14:22.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-07T16:14:22.391Z"
             },
             {
               "$type": "Document",
@@ -113,10 +109,9 @@
               "RelativeDocumentMoniker": "LZStore\\Controllers\\ProdutoController.cs",
               "ToolTip": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Controllers\\ProdutoController.cs",
               "RelativeToolTip": "LZStore\\Controllers\\ProdutoController.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAewB0AAAAIAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAcwD8AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T16:45:19.954Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T16:45:19.954Z"
             }
           ]
         }
