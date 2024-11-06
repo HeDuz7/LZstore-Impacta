@@ -4,7 +4,7 @@ namespace LZStore.Models.Interface.Context
 {
     public interface IContextData
     {
-        void CadastrarCliente(ClienteDto cliente);
+        //void CadastrarCliente(ClienteDto cliente);
         UsuarioDto EfetuarLogin(UsuarioDto usuario);
     }
 }

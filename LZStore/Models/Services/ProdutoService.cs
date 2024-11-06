@@ -108,5 +108,30 @@ namespace LZStore.Models.Services
                 throw new Exception(ex.Message);
             }
         }
+
+        public ProdutoDto PesquisaPorId(int id)
+        {
+            try
+            {
+                var produto = _produtoRepository.PesquisaPorId(id);
+
+                ProdutoDto Dto = new ProdutoDto();
+                Dto.Id           = produto.Id;
+                Dto.TamanhoProd  = produto.TamanhoProd;
+                Dto.NomeProduto  = produto.NomeProduto;
+                Dto.PrecoProduto = produto.PrecoProduto;
+                Dto.DescProduto  = produto.DescProduto;
+                Dto.EstoqueProd  = produto.EstoqueProd;
+                Dto.ModeloProd   = produto.ModeloProd;
+                Dto.IMGProdutoB  = produto.IMGProduto;
+
+                return Dto;
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
     }
 }

@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\css\\styleCadastro.css"
     },
     {
+      "Id": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\wwwroot\\css\\styleDetalhe.css",
+      "PackagePath": "staticwebassets\\css\\styleDetalhe.css"
+    },
+    {
       "Id": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\wwwroot\\css\\styleIndex.css",
       "PackagePath": "staticwebassets\\css\\styleIndex.css"
     },

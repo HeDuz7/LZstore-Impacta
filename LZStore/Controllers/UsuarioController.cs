@@ -1,12 +1,15 @@
 ﻿using LZStore.Models.Contexts;
 using LZStore.Models.Dtos;
 using LZStore.Models.Interface.Services;
+using LZStore.Models.Responses;
+using LZStore.Models.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LZStore.Controllers
 {
     public class UsuarioController : Controller
     {
+        private Response response;
         private readonly IUsuarioService _usuarioService;
 
         public UsuarioController(IUsuarioService usuarioService)
@@ -29,7 +32,8 @@ namespace LZStore.Controllers
                 bool resultado = _usuarioService.EfetuarLogin(usuario);
                 if (resultado == true)
                 {
-                    return Redirect("/CadastrarCliente");
+
+                    return RedirectToAction("ListarProdutos", "Produto");
                 }
                 else
                 {
@@ -42,5 +46,38 @@ namespace LZStore.Controllers
                 throw;
             }
         }
+
+        public IActionResult CadastrarUsuario()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult CadastrarUsuario([Bind("NomeCliente, SenhaCliente, EmailCliente, TelCliente, TipoUsuario")] UsuarioDto Usuario)
+        {
+            try
+            {
+                response = _usuarioService.Cadastrar(Usuario);
+
+                //if (!response.Success)
+                //{
+                //    return BadRequest(response);
+                //}
+
+                TempData["SuccessMessage"] = response.Notifications.FirstOrDefault();
+
+                return RedirectToAction("Login");
+                //return View;
+            }
+
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+
+        }
+
+
     }
 }

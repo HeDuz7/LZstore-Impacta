@@ -1,10 +1,10 @@
 ﻿using LZStore.Models.Dtos;
+using LZStore.Models.Entidades;
 
 namespace LZStore.Models.Interface.Repositories
 {
-    public interface IUsuarioRepository : IRepository<UsuarioDto, int>
+    public interface IUsuarioRepository : IRepository<Usuario, int>
     {
-        //UsuarioDto EfetuarLogin(UsuarioDto usuario);
-        UsuarioDto PesquisaLogin(string login);
+        Usuario PesquisaLogin(string login);
     }
 }

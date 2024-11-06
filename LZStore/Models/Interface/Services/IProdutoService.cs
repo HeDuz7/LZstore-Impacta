@@ -6,6 +6,6 @@ namespace LZStore.Models.Interface.Services
 
     public interface IProdutoService : IGenericService<ProdutoDto, string>
     {
-        
+        ProdutoDto PesquisaPorId(int id);
     }
 }

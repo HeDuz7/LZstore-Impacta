@@ -1,12 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 using static LZStore.Models.Enums.Enum;
-using LZStore.Models.Entidades;
 
-namespace LZStore.Models.Dtos
+namespace LZStore.Models.Entidades
 {
     [Table("tbCliente")]
-    public class ClienteDto : EntidadeBase
+    public class Usuario : EntidadeBase
     {
         [Required(ErrorMessage = " NOME DO CLIENTE OBRIGATORIO")]
         [MaxLength(255)]
@@ -27,27 +26,28 @@ namespace LZStore.Models.Dtos
         [Column("telefone")]
         public Int64 TelCliente { get; set; }
 
-        [Required(ErrorMessage = " CARGO OBRIGATORIO")]
-        [Column("cargo")]
-        public Cargo Cargo { get; set; }
+        [Required(ErrorMessage = " TIPO USUARIO OBRIGATORIO")]
+        [Column("tipoUsuario")]
+        public TipoUsuario TipoUsuario { get; set; }
 
-        public ClienteDto()
+        public Usuario()
         {
         }
 
-        public ClienteDto(int idCliente, string nomeCliente, string senhaCliente, string emailCliente, int telCliente, Cargo cargo)
-            : this(nomeCliente, senhaCliente, emailCliente, telCliente, cargo)
+        public Usuario(int idCliente, string nomeCliente, string senhaCliente, string emailCliente, int telCliente, TipoUsuario tipoUsuario)
+            : this(nomeCliente, senhaCliente, emailCliente, telCliente, tipoUsuario)
         {
             //this.Id = idCliente;
         }
 
-        public ClienteDto(string nomeCliente, string senhaCliente, string emailCliente, int telCliente, Cargo cargo)
+        public Usuario(string nomeCliente, string senhaCliente, string emailCliente, int telCliente, TipoUsuario tipoUsuario)
         {
-            this.NomeCliente  = nomeCliente;
+            this.NomeCliente = nomeCliente;
             this.SenhaCliente = senhaCliente;
             this.EmailCliente = emailCliente;
-            this.TelCliente   = telCliente;
-            this.Cargo        = cargo;
+            this.TelCliente = telCliente;
+            this.TipoUsuario = tipoUsuario;
         }
+
     }
 }

@@ -8,12 +8,12 @@ namespace LZStore.Models.Contexts
 {
     public class LzStoreContext : DbContext
     {
-        public DbSet<ClienteDto> Clientes { get; set; }
+        //public DbSet<ClienteDto> Clientes { get; set; }
 
         //public DbSet<ProdutoDto> Produto { get; set; }
         public DbSet<Produto> Produto { get; set; }
 
-        //public DbSet<UsuarioDto> Usuarios { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
 
 
         public LzStoreContext(DbContextOptions options)

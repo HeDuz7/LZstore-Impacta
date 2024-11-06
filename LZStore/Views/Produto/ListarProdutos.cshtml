@@ -90,98 +90,27 @@
         <img src="../img/bannerSite.png" alt="Banner Image">
     </section>
 
-@*  <table class="table"> *@
-    @* <thead> 
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.NomeProduto)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.PrecoProduto)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DescProduto)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.EstoqueProd)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ModeloProd)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.TamanhoProd)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IMGProduto)
-            </th>
-            <th></th>
-        </tr>
-    </thead> *@
-
     <div class="corpo">
-        <tbody> 
-
+       <tbody>
             @{
-                int contador = 1;
-              
-                <section class="products">
-                @foreach (var item in Model) {
+            <section class="products">
+            @foreach (var item in Model) {
+                    @if (item.IMGProdutoB != null)
+                    {
+                            <div class="product" button onclick="location.href='@Url.Action("DetalhesProduto", "Produto", new {id=item.Id})'">
 
-                    
-                    
-                        @if (item.IMGProdutoB != null)
-                        {
-                            <div class="product">       
-                                @{
-                                    var base64 = Convert.ToBase64String(item.IMGProdutoB);
-                                    var imgSrc = String.Format("data:image/gif;base64,{0}", base64);
-                                }
-                            <img src='@imgSrc' alt="Product 1">
-                            <h4>@Html.DisplayFor(modelItem => item.NomeProduto)</h4>
-                            <p>R$@Html.DisplayFor(modelItem => item.PrecoProduto)</p>
-                            </div>
-                            
-                        }
-                        @* <tr>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.NomeProduto)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.PrecoProduto)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.DescProduto)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.EstoqueProd)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.ModeloProd)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.TamanhoProd)
-                            </td>
-                            @if (item.IMGProdutoB != null)
-                            {
-                                <td>
-                                    @{
-                                        var base64 = Convert.ToBase64String(item.IMGProdutoB);
-                                        var imgSrc = String.Format("data:image/gif;base64,{0}", base64);
-                                    }
-                                    <img src='@imgSrc' style="max-width:300px; max-height:300px;" />
-                                </td>
-                            } 
-                            <td>
-                                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
-                            </td>
-                        </tr> *@
-                    
-                }
-                </section>
+                            @{
+                                var base64 = Convert.ToBase64String(item.IMGProdutoB);
+                                var imgSrc = String.Format("data:image/gif;base64,{0}", base64);
+                            }
+                        <img src='@imgSrc' alt="Product 1">
+                        <h4>@Html.DisplayFor(modelItem => item.NomeProduto)</h4>
+                        <p>R$@Html.DisplayFor(modelItem => item.PrecoProduto)</p>
+                        </div>
+                    } 
+            }
+            </section>
             }
        </tbody>
     </div>
 </body>
-@* </table> *@

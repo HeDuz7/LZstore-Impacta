@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Z4KzTA20Q712TELSEzc44NTjuxDXrrrwtWOI3jv/MTs=",
+  "Hash": "EfEMyDulW7NKxZGfhsUs5w3d1DYQFV+zzjArA6ZNuyY=",
   "Source": "LZStore",
   "BasePath": "_content/LZStore",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\styleCadastro.css"
+    },
+    {
+      "Identity": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\wwwroot\\css\\styleDetalhe.css",
+      "SourceId": "LZStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\wwwroot\\",
+      "BasePath": "_content/LZStore",
+      "RelativePath": "css/styleDetalhe.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styleDetalhe.css"
     },
     {
       "Identity": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\wwwroot\\css\\styleIndex.css",

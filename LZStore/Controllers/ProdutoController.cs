@@ -3,8 +3,6 @@ using LZStore.Models.Interface.Services;
 using LZStore.Models.Responses;
 using LZStore.Models.Services;
 using Microsoft.AspNetCore.Mvc;
-using System.Net;
-using LZStore.Models.Services;
 
 namespace LZStore.Controllers
 {
@@ -59,21 +57,23 @@ namespace LZStore.Controllers
             }
         }
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult DetalhesProduto(string? id)
+        public IActionResult DetalhesProduto(int id )
         {
             try
             {
 
-                if (string.IsNullOrEmpty(id))
+                if (id == null)
                 {
                     return NotFound();
                 }
 
-                TempData["SuccessMessage"] = response.Notifications.FirstOrDefault();
 
-                return RedirectToAction("ListarProdutos");
+                var produto = _produtoService.PesquisaPorId(id);
+                
+
+                return View(produto);
+
+                TempData["SuccessMessage"] = response.Notifications.FirstOrDefault();
             }
 
             catch (Exception ex)

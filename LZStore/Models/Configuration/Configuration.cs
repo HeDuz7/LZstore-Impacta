@@ -25,14 +25,12 @@ namespace LZStore.Models.Configuration
 
         public static void configureRepository(IServiceCollection services)
         {
-            services.AddScoped<IClienteRepository, ClienteRepository>();
             services.AddScoped<IUsuarioRepository, UsuarioRepository>();
             services.AddScoped<IProdutoRepository, ProdutoRepository>();
         }
 
         public static void configureService(IServiceCollection services)
         {
-            services.AddScoped<IClienteService, ClienteService>();
             services.AddScoped<IUsuarioService, UsuarioService>();
             services.AddScoped<IProdutoService, ProdutoService>();
         }

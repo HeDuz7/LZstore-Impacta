@@ -1,5 +1,6 @@
 ﻿using LZStore.Models.Contexts;
 using LZStore.Models.Dtos;
+using LZStore.Models.Entidades;
 using LZStore.Models.Interface.Context;
 using LZStore.Models.Interface.Repositories;
 using Microsoft.EntityFrameworkCore;
@@ -15,25 +16,20 @@ namespace LZStore.Models.Repositories
             _context = context;
         }
 
-        public void Cadastrar(UsuarioDto entidade)
+        public void Cadastrar(Usuario usuario)
+        {
+            _context.Add(usuario);
+            _context.SaveChanges();
+        }
+
+        public List<Usuario> Listar()
         {
             throw new NotImplementedException();
         }
 
-        public List<UsuarioDto> Listar()
+        public Usuario PesquisaLogin(string login)
         {
-            throw new NotImplementedException();
-        }
-
-        //public UsuarioDto Consultar(UsuarioDto usuario)
-        //{
-        //    return _contextData.EfetuarLogin(usuario);
-        //}
-
-        public UsuarioDto PesquisaLogin(string login)
-        {
-            return null;
-            //return _context.Usuarios.FirstOrDefault(x => x.EmailCliente.Equals(login));
+            return _context.Usuarios.FirstOrDefault(x => x.EmailCliente.Equals(login));
         }
     }
 }

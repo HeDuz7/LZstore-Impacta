@@ -25,5 +25,12 @@ namespace LZStore.Models.Repositories
         {
             return _context.Produto.ToList();
         }
+
+        public Produto PesquisaPorId(int id)
+        {
+            var produto = _context.Produto.FirstOrDefault(p => p.Id == id);
+
+            return produto;
+        }
     }
 }
