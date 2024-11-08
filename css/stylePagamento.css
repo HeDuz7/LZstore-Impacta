@@ -63,12 +63,13 @@ body {
     grid-template-areas: "name name""number number""expiration security";
     max-width: 400px;
     padding: 20px;
-    color: #707070;
+    color: #000;
 }
 
 label {
     padding-bottom: 5px;
-    font-size: 13px;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 input {
@@ -81,9 +82,9 @@ input {
 }
 
 .ccicon {
-    height: 38px;
+    height: 60px;
     position: absolute;
-    right: 6px;
+    right: 10px;
     top: calc(50% - 17px);
     width: 60px;
 }
@@ -236,12 +237,12 @@ input {
 }
 
 #cardfront .st7 {
-    opacity: 0.6;
+    opacity: 0.8;
     fill: #FFFFFF;
 }
 
 #cardfront .st8 {
-    font-size: 24px;
+    font-size: 25px;
 }
 
 #cardfront .st9 {
