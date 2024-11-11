@@ -1,4 +1,4 @@
-# Site de E-commerce de Camisas de Time
+# Site de E-commerce LZstore
 
 Este é um projeto de e-commerce desenvolvido para a venda de camisas de time. O site foi criado como parte de um trabalho acadêmico em equipe, utilizando as tecnologias HTML, CSS, JavaScript e C#. O desenvolvimento foi dividido em quatro entregas principais.
 
