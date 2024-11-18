@@ -5,22 +5,22 @@
 @model LZStore.Models.Dtos.UsuarioDto
 
 @{
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <!-- jquery -->
-    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <!-- bootstrap -->
-    <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
     <!-- chamada da função -->
-    <script type="text/javascript">
-        $(window).load(function () {
-            $('#myModal').modal('show');
-        });
-    </script>
+        <script type="text/javascript">
+            $(window).load(function () {
+                $('#myModal').modal('show');
+            });
+        </script>
 
-    <link rel="icon" type="image/png" href="../img/bolaPreta.png">
+        <link rel="icon" type="image/png" href="../img/bolaPreta.png">
     ViewData["Title"] = "LZ|Registro";
 }
 
@@ -28,24 +28,8 @@
 
     @if (TempData["SuccessMessage"] != null)
     {
-        <!-- Modal -->
-        <div class="modal fade" id="myModal" role="dialog" !important>
-            <div class="modal-dialog">
-
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title">Alerta !</h4>
-                    </div>
-                    <div class="modal-body">
-                        <p>@TempData["SuccessMessage"]</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
-                    </div>
-                </div>
-
-            </div>
+        <div class="alert alert-danger" style="z-index: 9999;">
+            <strong>Erro! </strong>@TempData["SuccessMessage"]
         </div>
     }
 
@@ -101,4 +85,21 @@
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+<script type="text/javascript">
+
+    function openSuccessModal(strMessage) {
+        var myDiv = document.GetElementById("MyModalSuccessAlert")
+        myDiv.innerHTML = strMessage;
+        $('#myModalSuccess').modal('show');
+    }
+
+    &(document).ready(function(){
+        var msg = " @TempData["SuccessMessage"]";
+        if(msg)
+            openSuccessModal(msg)
+    })
+
+
+</script>
 }

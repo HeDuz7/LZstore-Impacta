@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LZStore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1674515eb606f4fb6f95b47473682a9c29e62d02")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+920c20cf059832db3486a432ae719a32b757f36c")]
 [assembly: System.Reflection.AssemblyProductAttribute("LZStore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LZStore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

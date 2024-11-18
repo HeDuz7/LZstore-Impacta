@@ -35,6 +35,31 @@
     </header>
     <div class="container">
         <main role="main" class="pb-3">
+
+            @* Success modal dialog *@
+
+            <div id="myModalSuccess" class="modal fade text-width:30%" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <h2>Informação</h2>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+
+                        <div id="MyModalSuccessAlertBody" class="modal-body alert alert-success">
+                            @TempData["SuccessMessage"]
+                        </div>
+
+                        <div class="modal-footer">
+                            &nbsp;
+                            <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
             @RenderBody()
         </main>
     </div>

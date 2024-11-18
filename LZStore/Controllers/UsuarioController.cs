@@ -67,7 +67,18 @@ namespace LZStore.Controllers
 
                 TempData["SuccessMessage"] = response.Notifications.FirstOrDefault();
 
-                return RedirectToAction("Login");
+                if (response.Success == true)
+                {
+                    return RedirectToAction("Login");
+                }
+                else
+                {
+                    return RedirectToAction("CadastrarUsuario");
+                }
+
+                
+
+                
                 //return View;
             }
 

@@ -1,6 +1,17 @@
 ﻿@using Microsoft.AspNetCore.Http;
 
+
+
+
 <body style="overflow: hidden;">
+
+    @if (TempData["SuccessMessage"] != null)
+    { 
+        <div class="alert alert-success" style="z-index: 9999;">
+                <strong>Sucesso! </strong>@TempData["SuccessMessage"]
+            </div>
+    }
+
     <div class="form">
         <form method="post" asp-controller="usuario" asp-action="login"  style="width: 50%;">
             <div class="text-center">

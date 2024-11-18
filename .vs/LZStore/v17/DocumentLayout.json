@@ -3,48 +3,36 @@
   "WorkspaceRootPath": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|d:\\documentos\\gustavo\\faculdadeimpacta\\trabalhofaculdade\\lzstore-impacta\\lzstore\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|solutionrelative:lzstore\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|d:\\documentos\\gustavo\\faculdadeimpacta\\trabalhofaculdade\\lzstore-impacta\\lzstore\\models\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|solutionrelative:lzstore\\models\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|d:\\documentos\\gustavo\\faculdadeimpacta\\trabalhofaculdade\\lzstore-impacta\\lzstore\\models\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|solutionrelative:lzstore\\models\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|d:\\documentos\\gustavo\\faculdadeimpacta\\trabalhofaculdade\\lzstore-impacta\\lzstore\\models\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|solutionrelative:lzstore\\models\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|d:\\documentos\\gustavo\\faculdadeimpacta\\trabalhofaculdade\\lzstore-impacta\\lzstore\\views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|solutionrelative:lzstore\\views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|d:\\documentos\\gustavo\\faculdadeimpacta\\trabalhofaculdade\\lzstore-impacta\\lzstore\\views\\usuario\\cadastrarusuario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|solutionrelative:lzstore\\views\\usuario\\cadastrarusuario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|d:\\documentos\\gustavo\\faculdadeimpacta\\trabalhofaculdade\\lzstore-impacta\\lzstore\\models\\contexts\\contextdatasqlserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|solutionrelative:lzstore\\models\\contexts\\contextdatasqlserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|d:\\documentos\\gustavo\\faculdadeimpacta\\trabalhofaculdade\\lzstore-impacta\\lzstore\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|solutionrelative:lzstore\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|d:\\documentos\\gustavo\\faculdadeimpacta\\trabalhofaculdade\\lzstore-impacta\\lzstore\\models\\dtos\\produtodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|solutionrelative:lzstore\\models\\dtos\\produtodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|d:\\documentos\\gustavo\\faculdadeimpacta\\trabalhofaculdade\\lzstore-impacta\\lzstore\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|solutionrelative:lzstore\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|d:\\documentos\\gustavo\\faculdadeimpacta\\trabalhofaculdade\\lzstore-impacta\\lzstore\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|solutionrelative:lzstore\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|d:\\documentos\\gustavo\\faculdadeimpacta\\trabalhofaculdade\\lzstore-impacta\\lzstore\\models\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|solutionrelative:lzstore\\models\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|d:\\documentos\\gustavo\\faculdadeimpacta\\trabalhofaculdade\\lzstore-impacta\\lzstore\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|solutionrelative:lzstore\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|d:\\documentos\\gustavo\\faculdadeimpacta\\trabalhofaculdade\\lzstore-impacta\\lzstore\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|solutionrelative:lzstore\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|d:\\documentos\\gustavo\\faculdadeimpacta\\trabalhofaculdade\\lzstore-impacta\\lzstore\\models\\interface\\context\\icontextdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|solutionrelative:lzstore\\models\\interface\\context\\icontextdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|d:\\documentos\\gustavo\\faculdadeimpacta\\trabalhofaculdade\\lzstore-impacta\\lzstore\\models\\interface\\repositories\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|solutionrelative:lzstore\\models\\interface\\repositories\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|d:\\documentos\\gustavo\\faculdadeimpacta\\trabalhofaculdade\\lzstore-impacta\\lzstore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF41D0E9-EFB0-4F49-8AC5-C37AAFDCA9B8}|LZStore\\LZStore.csproj|solutionrelative:lzstore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,145 +50,107 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Models\\Entidades\\Usuario.cs",
-              "RelativeDocumentMoniker": "LZStore\\Models\\Entidades\\Usuario.cs",
-              "ToolTip": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Models\\Entidades\\Usuario.cs",
-              "RelativeToolTip": "LZStore\\Models\\Entidades\\Usuario.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACwAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T20:23:17.832Z",
+              "DocumentIndex": 4,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "LZStore\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "LZStore\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACAAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-13T16:21:17.76Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ContextDataSqlServer.cs",
-              "DocumentMoniker": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Models\\Contexts\\ContextDataSqlServer.cs",
-              "RelativeDocumentMoniker": "LZStore\\Models\\Contexts\\ContextDataSqlServer.cs",
-              "ToolTip": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Models\\Contexts\\ContextDataSqlServer.cs",
-              "RelativeToolTip": "LZStore\\Models\\Contexts\\ContextDataSqlServer.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAjwCEAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T20:19:42.129Z",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Views\\Usuario\\Login.cshtml",
+              "RelativeDocumentMoniker": "LZStore\\Views\\Usuario\\Login.cshtml",
+              "ToolTip": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Views\\Usuario\\Login.cshtml",
+              "RelativeToolTip": "LZStore\\Views\\Usuario\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T15:45:50.668Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UsuarioDto.cs",
-              "DocumentMoniker": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Models\\Dtos\\UsuarioDto.cs",
-              "RelativeDocumentMoniker": "LZStore\\Models\\Dtos\\UsuarioDto.cs",
-              "ToolTip": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Models\\Dtos\\UsuarioDto.cs",
-              "RelativeToolTip": "LZStore\\Models\\Dtos\\UsuarioDto.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAjwCMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T20:17:51.776Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsuarioService.cs",
-              "DocumentMoniker": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Models\\Services\\UsuarioService.cs",
-              "RelativeDocumentMoniker": "LZStore\\Models\\Services\\UsuarioService.cs",
-              "ToolTip": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Models\\Services\\UsuarioService.cs",
-              "RelativeToolTip": "LZStore\\Models\\Services\\UsuarioService.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAjwCYAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T16:03:18.608Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IContextData.cs",
-              "DocumentMoniker": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Models\\Interface\\Context\\IContextData.cs",
-              "RelativeDocumentMoniker": "LZStore\\Models\\Interface\\Context\\IContextData.cs",
-              "ToolTip": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Models\\Interface\\Context\\IContextData.cs",
-              "RelativeToolTip": "LZStore\\Models\\Interface\\Context\\IContextData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T15:58:22.249Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "ProdutoController.cs",
               "DocumentMoniker": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Controllers\\ProdutoController.cs",
               "RelativeDocumentMoniker": "LZStore\\Controllers\\ProdutoController.cs",
               "ToolTip": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Controllers\\ProdutoController.cs",
               "RelativeToolTip": "LZStore\\Controllers\\ProdutoController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAApAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAA4AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T15:56:52.468Z",
+              "WhenOpened": "2024-11-11T18:41:23.839Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "LZStore\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "LZStore\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADIAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-08T18:13:37.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "LZStore\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "LZStore\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-08T18:13:32.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CadastrarUsuario.cshtml",
               "DocumentMoniker": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Views\\Usuario\\CadastrarUsuario.cshtml",
               "RelativeDocumentMoniker": "LZStore\\Views\\Usuario\\CadastrarUsuario.cshtml",
               "ToolTip": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Views\\Usuario\\CadastrarUsuario.cshtml",
               "RelativeToolTip": "LZStore\\Views\\Usuario\\CadastrarUsuario.cshtml",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAhwFkAAABIAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-06T15:14:06.964Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "UsuarioRepository.cs",
               "DocumentMoniker": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Models\\Repositories\\UsuarioRepository.cs",
               "RelativeDocumentMoniker": "LZStore\\Models\\Repositories\\UsuarioRepository.cs",
               "ToolTip": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Models\\Repositories\\UsuarioRepository.cs",
               "RelativeToolTip": "LZStore\\Models\\Repositories\\UsuarioRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T16:28:22.58Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "LZStore\\Controllers\\UsuarioController.cs",
               "ToolTip": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "LZStore\\Controllers\\UsuarioController.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAvwDkAAAAIAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEsAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T14:43:06.536Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProdutoDto.cs",
-              "DocumentMoniker": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Models\\Dtos\\ProdutoDto.cs",
-              "RelativeDocumentMoniker": "LZStore\\Models\\Dtos\\ProdutoDto.cs",
-              "ToolTip": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Models\\Dtos\\ProdutoDto.cs",
-              "RelativeToolTip": "LZStore\\Models\\Dtos\\ProdutoDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T17:43:16.655Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IUsuarioRepository.cs",
-              "DocumentMoniker": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Models\\Interface\\Repositories\\IUsuarioRepository.cs",
-              "RelativeDocumentMoniker": "LZStore\\Models\\Interface\\Repositories\\IUsuarioRepository.cs",
-              "ToolTip": "D:\\Documentos\\Gustavo\\FaculdadeImpacta\\TrabalhoFaculdade\\LZstore-Impacta\\LZStore\\Models\\Interface\\Repositories\\IUsuarioRepository.cs",
-              "RelativeToolTip": "LZStore\\Models\\Interface\\Repositories\\IUsuarioRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T17:49:15.587Z"
             }
           ]
         }
