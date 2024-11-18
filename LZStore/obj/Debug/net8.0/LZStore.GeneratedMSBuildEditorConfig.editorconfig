@@ -17,59 +17,59 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LZStore
 build_property.RootNamespace = LZStore
-build_property.ProjectDir = D:\Documentos\Gustavo\FaculdadeImpacta\TrabalhoFaculdade\LZstore-Impacta\LZStore\
+build_property.ProjectDir = C:\Users\Guilherme\Desktop\Luiz\PROJETOS\LZstore-Impacta\LZStore\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Documentos\Gustavo\FaculdadeImpacta\TrabalhoFaculdade\LZstore-Impacta\LZStore
+build_property.MSBuildProjectDirectory = C:\Users\Guilherme\Desktop\Luiz\PROJETOS\LZstore-Impacta\LZStore
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Documentos/Gustavo/FaculdadeImpacta/TrabalhoFaculdade/LZstore-Impacta/LZStore/Views/Home/Index.cshtml]
+[C:/Users/Guilherme/Desktop/Luiz/PROJETOS/LZstore-Impacta/LZStore/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documentos/Gustavo/FaculdadeImpacta/TrabalhoFaculdade/LZstore-Impacta/LZStore/Views/Home/Privacy.cshtml]
+[C:/Users/Guilherme/Desktop/Luiz/PROJETOS/LZstore-Impacta/LZStore/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documentos/Gustavo/FaculdadeImpacta/TrabalhoFaculdade/LZstore-Impacta/LZStore/Views/Produto/CadastrarProduto.cshtml]
+[C:/Users/Guilherme/Desktop/Luiz/PROJETOS/LZstore-Impacta/LZStore/Views/Produto/CadastrarProduto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xDYWRhc3RyYXJQcm9kdXRvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documentos/Gustavo/FaculdadeImpacta/TrabalhoFaculdade/LZstore-Impacta/LZStore/Views/Produto/DetalhesProduto.cshtml]
+[C:/Users/Guilherme/Desktop/Luiz/PROJETOS/LZstore-Impacta/LZStore/Views/Produto/DetalhesProduto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xEZXRhbGhlc1Byb2R1dG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documentos/Gustavo/FaculdadeImpacta/TrabalhoFaculdade/LZstore-Impacta/LZStore/Views/Produto/ListarProdutos.cshtml]
+[C:/Users/Guilherme/Desktop/Luiz/PROJETOS/LZstore-Impacta/LZStore/Views/Produto/ListarProdutos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xMaXN0YXJQcm9kdXRvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documentos/Gustavo/FaculdadeImpacta/TrabalhoFaculdade/LZstore-Impacta/LZStore/Views/Shared/Error.cshtml]
+[C:/Users/Guilherme/Desktop/Luiz/PROJETOS/LZstore-Impacta/LZStore/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documentos/Gustavo/FaculdadeImpacta/TrabalhoFaculdade/LZstore-Impacta/LZStore/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Guilherme/Desktop/Luiz/PROJETOS/LZstore-Impacta/LZStore/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documentos/Gustavo/FaculdadeImpacta/TrabalhoFaculdade/LZstore-Impacta/LZStore/Views/Usuario/CadastrarUsuario.cshtml]
+[C:/Users/Guilherme/Desktop/Luiz/PROJETOS/LZstore-Impacta/LZStore/Views/Usuario/CadastrarUsuario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDYWRhc3RyYXJVc3VhcmlvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documentos/Gustavo/FaculdadeImpacta/TrabalhoFaculdade/LZstore-Impacta/LZStore/Views/Usuario/Login.cshtml]
+[C:/Users/Guilherme/Desktop/Luiz/PROJETOS/LZstore-Impacta/LZStore/Views/Usuario/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documentos/Gustavo/FaculdadeImpacta/TrabalhoFaculdade/LZstore-Impacta/LZStore/Views/_ViewImports.cshtml]
+[C:/Users/Guilherme/Desktop/Luiz/PROJETOS/LZstore-Impacta/LZStore/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documentos/Gustavo/FaculdadeImpacta/TrabalhoFaculdade/LZstore-Impacta/LZStore/Views/_ViewStart.cshtml]
+[C:/Users/Guilherme/Desktop/Luiz/PROJETOS/LZstore-Impacta/LZStore/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documentos/Gustavo/FaculdadeImpacta/TrabalhoFaculdade/LZstore-Impacta/LZStore/Views/Shared/_Layout.cshtml]
+[C:/Users/Guilherme/Desktop/Luiz/PROJETOS/LZstore-Impacta/LZStore/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-w34biugoa3
